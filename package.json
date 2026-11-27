@@ -1,0 +1,15 @@
+{
+  "name": "game-shelf-save-slots",
+  "version": "0.1.0",
+  "description": "Local checkpoint history and branching save slots for HTML games",
+  "author": "chai-in",
+  "license": "AGPL-3.0-only",
+  "engines": { "node": ">=22" },
+  "main": "./src/index.cjs",
+  "exports": {
+    ".": "./src/index.cjs",
+    "./web-storage": "./src/web-storage.mjs"
+  },
+  "files": ["src", "test", "LICENSE", "README.md"],
+  "scripts": { "test": "node --test" }
+}
